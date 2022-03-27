@@ -1,5 +1,5 @@
 <?php
-$base = "documents/";
+$base = "uploadedFiles/";
 $origin = $base . basename($_FILES["fileToUpload"]["name"]);
 $status = 1; //to check the status of file
 $imageFileType = strtolower(pathinfo($origin, PATHINFO_EXTENSION));
